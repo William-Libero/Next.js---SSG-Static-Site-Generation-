@@ -1,6 +1,7 @@
 import styles from "./coin.module.css";
 import { Card, CardHeader, CardBody, Link } from "@nextui-org/react";
 import { SlArrowLeft } from "react-icons/sl";
+import Head from "next/head";
 
 export async function getStaticProps(context) {
   const id = context.params.id;
@@ -24,6 +25,16 @@ export async function getStaticPaths() {
 export default function Coin(props) {
   return (
     <div>
+      <Head>
+        <title>
+          Next.js - Criptocurrencies values - SSG (Static Site Generation)
+        </title>
+        <meta
+          name="description"
+          content="Next.js - Criptocurrencies values - SSG (Static Site Generation)"
+        />
+        <link rel="icon" href="/images/code.png" />
+      </Head>
       <div className={styles.backBtnContainer}>
         <Link className={styles.backBtnLink} href={"/"}>
           <SlArrowLeft />

@@ -30,7 +30,7 @@ export default function HomeInfoDialog() {
                 create a static website that provides information about
                 different cryptocurrencies by fetching data from an API and
                 revalidating this data every 60 seconds through Incremental
-                Static Regeneration (ISR) using the revalidate property inside{" "}
+                Static Regeneration (ISR) using the{" "}
                 <a
                   href="https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration#incremental-static-regeneration-getstaticprops-with-revalidate"
                   target="_blank"
@@ -50,7 +50,7 @@ export default function HomeInfoDialog() {
               </p>
               <p>
                 <b>Static Site Generation:</b> The project utilizes Next.js
-                static site generation (SSG) to pre-render the website's pages
+                Static Site Generation (SSG) to pre-render the website's pages
                 in advance, as opposed to generating them dynamically on the
                 server upon each request. This approach offers benefits such as
                 improved performance, security, and simpler hosting

@@ -22,7 +22,6 @@ export async function getStaticPaths() {
 }
 
 export default function Coin(props) {
-  console.log(props);
   return (
     <div>
       <div className={styles.backBtnContainer}>

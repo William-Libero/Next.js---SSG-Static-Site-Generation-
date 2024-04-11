@@ -1,10 +1,6 @@
 .coinCard {
   background-color: #ffffff;
   width: 20%;
-  margin-bottom: 1%;
-  box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.1);
-  padding: 15px;
-  border-radius: 10px;
 }
 
 .cardFooter {

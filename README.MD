@@ -6,6 +6,8 @@
 
 [![NextJS](https://img.shields.io/badge/Next.js-14.1.3-black.svg)](https://nextjs.org/)
 
+<b>Project link:</b> <a href="https://next-js-ssg-static-site-generation.vercel.app/" target="_blank" style="color: blue, textDecoration: underline">https://next-js-ssg-static-site-generation.vercel.app/</a>
+
 <b>Objective:</b> The primary objective of this project is to create a static website that provides information about different cryptocurrencies by fetching data from an API and revalidating this data every 60 seconds through Incremental Static Regeneration (ISR) using the <a href="https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration#incremental-static-regeneration-getstaticprops-with-revalidate" target="_blank" style="color: blue, textDecoration: underline">
 revalidate</a> property inside <a href="https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration#static-site-generation-getstaticprops" target="_blank" style="color: blue, textDecoration: underline">getStaticProps</a>.
 

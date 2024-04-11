@@ -1,0 +1,17 @@
+.coinCard {
+  width: 20%;
+  margin-bottom: 1%;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cardFooterLink {
+  background-color: #5fc279;
+  padding: 5px;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+}

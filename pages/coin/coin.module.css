@@ -1,0 +1,32 @@
+.coinCard {
+  background-color: #ffffff;
+  width: 20%;
+  margin-bottom: 1%;
+  box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cardFooterLink {
+  background-color: #5fc279;
+  padding: 5px;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.backBtnContainer {
+  position: absolute;
+  top: 5%;
+  left: 1%;
+}
+
+.backBtnLink {
+  color: black;
+  font-size: 3em;
+}

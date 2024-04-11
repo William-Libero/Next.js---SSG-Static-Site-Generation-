@@ -1,14 +1,6 @@
 import HomeInfoDialog from "../components/homeInfoDialog/homeInfoDialog";
 import CryptocoinCard from "../components/cryptocoinCard/cryptocoinCard";
-import {
-  Modal,
-  ModalContent,
-  ModalHeader,
-  ModalBody,
-  ModalFooter,
-  Button,
-  useDisclosure,
-} from "@nextui-org/react";
+import Head from "next/head";
 import styles from "./index.module.css";
 
 export async function getStaticProps() {
@@ -32,6 +24,16 @@ export async function getStaticProps() {
 export default function Home(props) {
   return (
     <div className={styles.coinsContainer}>
+      <Head>
+        <title>
+          Next.js - Criptocurrencies values - SSG (Static Site Generation)
+        </title>
+        <meta
+          name="description"
+          content="Next.js - Criptocurrencies values - SSG (Static Site Generation)"
+        />
+        <link rel="icon" href="/images/code.png" />
+      </Head>
       <HomeInfoDialog />
       <h1 className="text-2xl font-semibold mt-5 mb-10">
         Cryptocurrencies List
